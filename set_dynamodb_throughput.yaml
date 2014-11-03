@@ -1,0 +1,251 @@
+activity:
+  read: 25
+  write: 5
+activityResponse:
+  read: 24
+  write: 48
+  adjustmets:
+    2014-08-05_01:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+    2014-08-05_02:
+      who: John Kastler
+      what: bumped writes to 48 after recommendation from Dave Lee
+building:
+  read: 16
+  write: 3
+campus:
+  read: 25
+  write: 5
+captioningProfile:
+  read: 25
+  write: 5
+captureAudio:
+  read: 25
+  write: 5
+captureEvent:
+  read: 50
+  write: 5
+captureOccurrence:
+  read: 576
+  write: 2
+  adjustments:
+    2014-07-16_01:
+      who: John Kastler
+      what: bumped reads from 128 to 256 after getting throttled alerts in QA on BatchGetItem
+    2014-07-15_01:
+      who: John Kastler
+      what: bumped reads from 16 to 128 after reviewing chart data from July 7 and July 11 showing reads of 304 and 258
+captureSchedule:
+  read: 48
+  write: 2
+  adjustments:
+    2014-09-03_01:
+        who: John Kastler
+        what: bumped reads from 12 to 24
+    2014-09-04_01:
+        who: John Kastler
+        what: bumped reads from 24 to 48
+captureVideo:
+  read: 25
+  write: 5
+contentRef:
+  read: 24
+  write: 48
+  adjustments:
+    2014-08-05_01:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+    2014-08-05_02:
+      who: John Kastler
+      what: bumped writes to 48 after recommendation from Dave Lee
+course:
+  read: 12
+  write: 2
+dataPoint:
+  read: 24
+  write: 500
+  adjustments:
+    2014-08-01_01:
+      who: John Kastler
+      what: bumped writes from 2 to 4
+    2014-08-01_02:
+      who: John Kastler
+      what: bumped writes to 500 after recommendation from Dave Lee
+    2014-08-05:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+  notes:
+    what: This is a table we should expect to have some of the highest write loads. It stores all of our student analytics data points
+department:
+  read: 16
+  write: 3
+device:
+  read: 16
+  write: 16
+  adjustments:
+    2014-09-09_01:
+        who: John Kastler
+        what: bumped writes from 8 to 16
+    2014-07-15_01:
+      who: John Kastler
+      what: bumped from 4 to 8 after throttle alarm was triggered in US East Prod
+deviceFile:
+  read: 16
+  write: 3
+deviceInput:
+  read: 24
+  write: 4
+deviceLogFile:
+  read: 25
+  write: 5
+deviceNotification:
+  read: 16
+  write: 3
+engagementMetric:
+  read: 50
+  write: 10
+image:
+  read: 50
+  write: 10
+imageFile:
+  read: 25
+  write: 5
+institution:
+  read: 25
+  write: 5
+institutionUser:
+  read: 64
+  write: 3
+invitation:
+  read: 16
+  write: 3
+lesson:
+  read: 25
+  write: 5
+lessonActivity:
+  read: 100
+  write: 32
+  adjustments:
+    2014-07-18:
+      who: John Kastler
+      what: bumped reads from 50 to 100 after at least 46 throttled requests came in from QA dynamodb
+    2014-08-05:
+      who: John Kastler
+      what: bumped writes to 32 after input from Dave Lee
+lessonSlide:
+  read: 25
+  write: 5
+lessonPublishableMedia:
+  read: 400
+  write: 2
+  adjustments:
+    2014-07-23:
+      who: John Kastler
+      what: bumped read from 100 to 200 after at least 98 throttled requests came in from QA
+lmsProfile:
+  read: 25
+  write: 5
+lmsSection:
+  read: 25
+  write: 5
+lmsUser:
+  read: 16
+  write: 3
+note:
+  read: 24
+  write: 48
+  adjustments:
+    2014-08-05_01:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+    2014-08-05_02:
+      who: John Kastler
+      what: bumped writes to 48 after recommendation from Dave Lee
+notebook:
+  read: 12
+  write: 48
+  adjustments:
+    2014-08-05:
+      who: John Kastler
+      what: bumped writes to 48 after recommendation from Dave Lee
+organization:
+  read: 25
+  write: 5
+pendingJobRequest:
+  read: 25
+  write: 5
+publishableMedia:
+  read: 16
+  write: 3
+question:
+  read: 24
+  write: 32
+  adjustments:
+    2014-08-05_01:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+    2014-08-05_02:
+      who: John Kastler
+      what: bumped writes to 32 after input from Dave Lee
+questionResponse:
+  read: 24
+  write: 3
+  adjustments:
+    2014-08-05:
+      who: John Kastler
+      what: bumped reads to 24 after recommendation from Dave Lee
+room:
+  read: 16
+  write: 3
+roomConfiguration:
+  read: 25
+  write: 5
+roomSubscription:
+  read: 25
+  write: 5
+section:
+  read: 12
+  write: 2
+slide:
+  read: 50
+  write: 20
+  adjustments:
+    2014-09-09:
+        who: John Kastler
+        what: bumped writes from 10 to 20
+slideDeck:
+  read: 25
+  write: 5
+term:
+  read: 50
+  write: 10
+toggle:
+  read: 50
+  write: 10
+user:
+  read: 25
+  write: 5
+userEmail:
+  read: 16
+  write: 3
+userPublishableMedia:
+  read: 25
+  write: 5
+userReceipt:
+  read: 100
+  write: 32
+  adjustments:
+    2014-08-05_01:
+      who: John Kastler
+      what: bumped reads from 25 to 50 after throttle alert in QA
+    2014-08-05_02:
+      who: John Kastler
+      what: bumped writes to 32 after input from Dave Lee
+userSection:
+  read: 25
+  write: 30
+  adjustments:
+    2014-09-05:
+      who: John Kastler
+      what: bumped write from 15 to 30
